@@ -27,8 +27,8 @@ function Index() {
           <Image
             objectFit="cover"
             src={CircleLogo}
-            priority
             alt="circle image"
+            priority
           />
         </div>
         {/* HEADER TEXT */}
