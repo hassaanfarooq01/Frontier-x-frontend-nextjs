@@ -11,7 +11,7 @@ function Footer() {
       style={{ display: "flex", justifyContent: "center" }}
     >
       <a className="flex items-center content-center w-48" href="#">
-        <Image src={Logo2} objectFit="cover" />
+        <Image src={Logo2} objectFit="cover" alt="logo" />
       </a>
     </footer>
   );

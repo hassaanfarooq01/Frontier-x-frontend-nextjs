@@ -17,7 +17,7 @@ function Header() {
       <nav className="bg-[#111827] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 ">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="#" className="flex items-center w-48">
-            <Image src={Logo} objectFit="cover" />
+            <Image src={Logo} objectFit="cover" alt="logo" />
           </a>
           <div className="flex md:order-2">
             <button
@@ -193,7 +193,7 @@ function Header() {
           </div>
         </div>
       </nav>
-      <div className="z-40 h-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 to-red-500"></div>
+      <div className="z-40 h-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-red-500"></div>
     </div>
   );
 }
