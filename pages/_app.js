@@ -2,6 +2,10 @@ import Layout from "../components/Layout/Layout";
 import "../styles/globals.css";
 import Head from "next/head";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
+
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
