@@ -73,7 +73,7 @@ function Index() {
       </div>
       <div className="w-full md:flex">
         <div className="w-5/12 sm:hidden lg:block"></div>
-        <div className="w-full pr-0 ml-10 lg:ml-0 lg:w-1/2 md:pr-10">
+        <div className="w-full px-4 ml-0 lg:ml-0 lg:w-1/2 md:px-7">
           <Accordion2
             title="Lorem ipsum"
             content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam iste voluptate tempora consequuntur voluptatibus architecto cum aliquid fugiat, minus esse eaque deserunt. Ad voluptate recusandae, eos mollitia rem unde praesentium?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam iste voluptate tempora consequuntur voluptatibus architecto cum aliquid fugiat, minus esse eaque deserunt. Ad voluptate recusandae, eos mollitia rem unde praesentium?"

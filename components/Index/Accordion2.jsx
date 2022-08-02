@@ -18,7 +18,7 @@ export default function Accordion(props) {
   };
 
   return (
-    <div className="w-full mb-9 leading-4 rounded-md p-3 text-white bg-[#19151B] ml-0 lg:ml-32 ">
+    <div className="w-full mb-9 leading-4 rounded-md p-3 text-white bg-[#19151B] ml-0 lg:ml-16 ">
       {/* ACCORDION BUTTON WITH THE TITLE */}
       <button
         className="relative flex items-center w-full h-10 px-2 text-left bg-transparent border-none outline-none cursor-pointer "
